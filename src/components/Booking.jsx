@@ -142,7 +142,7 @@ export default function Booking({ video, selected, setVideo, choose, total }) {
           </div>
           <div className="payment-instructions">
             <div className="qr-frame">
-              <img src="/public/gallery/payment-qr.JPG" alt="WestSide Studio payment QR" onError={(event) => { event.currentTarget.hidden = true; event.currentTarget.nextElementSibling.hidden = false; }} />
+              <img src="/public/gallery/payment-qr.jpg" alt="WestSide Studio payment QR" onError={(event) => { event.currentTarget.hidden = true; event.currentTarget.nextElementSibling.hidden = false; }} />
               <div className="qr-placeholder" hidden><CreditCard size={28} /><b>Payment QR needed</b><span>Add your real QR image as <code>public/payment-qr.png</code></span></div>
             </div>
             <div><span className="section-label">PAYMENT</span><p>Scan the studio's payment QR, then upload a screenshot or payment reference below.</p><small>Your booking is only confirmed after the payment is reviewed.</small></div>
