@@ -1,7 +1,7 @@
 export const contacts = {
   telegram: {
     label: "DM me on Telegram",
-    url: "https://t.me/k_sinarith",
+    url: "https://t.me/nothinghere1268",
   },
   discord: {
     label: "Join my Discord server",
